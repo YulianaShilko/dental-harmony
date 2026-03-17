@@ -2851,3 +2851,15 @@ section.lazy-placeholder:after {
     border-radius: 16px;
     box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }
+
+.video-wrapper {
+    max-width: 464px;
+    margin: 0 auto;
+}
+
+.video-wrapper video {
+    width: 100%;
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
+    border-radius: 16px;
+}
