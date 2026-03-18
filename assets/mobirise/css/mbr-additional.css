@@ -2852,14 +2852,20 @@ section.lazy-placeholder:after {
     box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }
 
-/* .video-wrapper {
-    max-width: 464px;
-    margin: 0 auto;
+.cid-vecdBrSicm {
+    padding-top: 135px;
+    padding-bottom: 135px;
+    background-image: url("../../../assets/images/back1-1582x1574.png");
 }
-
-.video-wrapper video {
+.cid-vecdBrSicm .mbr-fallback-image.disabled {
+    display: none;
+}
+.cid-vecdBrSicm .mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
     width: 100%;
-    aspect-ratio: 9 / 16;
-    object-fit: cover;
-    border-radius: 16px;
-} */
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
