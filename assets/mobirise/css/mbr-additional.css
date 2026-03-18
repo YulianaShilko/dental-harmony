@@ -1190,6 +1190,25 @@ section.lazy-placeholder:after {
   text-align: right;
   color: #222222;
 }
+
+.cid-vecdBrSicm {
+    padding-top: 135px;
+    padding-bottom: 135px;
+    background-image: url("../../../assets/images/back1-1582x1574.png");
+}
+.cid-vecdBrSicm .mbr-fallback-image.disabled {
+    display: none;
+}
+.cid-vecdBrSicm .mbr-fallback-image {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
 .cid-vdW8lYlha8 {
   background-image: url("../../../assets/images/reception-1086x1480.png");
 }
@@ -2852,20 +2871,3 @@ section.lazy-placeholder:after {
     box-shadow: 0 15px 40px rgba(0,0,0,0.15);
 }
 
-.cid-vecdBrSicm {
-    padding-top: 135px;
-    padding-bottom: 135px;
-    background-image: url("../../../assets/images/back1-1582x1574.png");
-}
-.cid-vecdBrSicm .mbr-fallback-image.disabled {
-    display: none;
-}
-.cid-vecdBrSicm .mbr-fallback-image {
-    display: block;
-    background-size: cover;
-    background-position: center center;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-}
