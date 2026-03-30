@@ -1392,7 +1392,7 @@ section.lazy-placeholder:after {
   background: none;
   position: relative;
 }
-.cid-vdVSSX5hrm .mbr-testimonial .card-footer:before {
+/* .cid-vdVSSX5hrm .mbr-testimonial .card-footer:before {
   content: '';
   position: absolute;
   background: #b69b74;
@@ -1400,7 +1400,7 @@ section.lazy-placeholder:after {
   left: 50%;
   width: 2px;
   height: 3rem;
-}
+} */
 @media (max-width: 300px) {
   .cid-vdVSSX5hrm .testimonial-photo {
     width: 100% !important;
@@ -1479,7 +1479,7 @@ section.lazy-placeholder:after {
   background: none;
   position: relative;
 }
-.cid-vdVUjgB0Ce .mbr-testimonial .card-footer:before {
+/* .cid-vdVUjgB0Ce .mbr-testimonial .card-footer:before {
   content: '';
   position: absolute;
   background: #b69b74;
@@ -1487,7 +1487,7 @@ section.lazy-placeholder:after {
   left: 50%;
   width: 2px;
   height: 3rem;
-}
+} */
 @media (max-width: 300px) {
   .cid-vdVUjgB0Ce .testimonial-photo {
     width: 100% !important;
