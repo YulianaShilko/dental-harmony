@@ -2510,6 +2510,40 @@ section.lazy-placeholder:after {
   color: #222222;
 }
 
+.cid-vfkh2itAdA {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #efefef;
+}
+.cid-vfkh2itAdA .mbr-text {
+  color: #777d74;
+}
+.cid-vfkh2itAdA .mbr-iconfont {
+  color: #222222;
+  font-size: 1rem;
+}
+.cid-vfkh2itAdA .icon-wrapper {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #777d74;
+  border-radius: 50%;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+  margin: 0 0.5rem;
+}
+.cid-vfkh2itAdA .icon-wrapper:hover {
+  background: #72dfe9;
+}
+.cid-vfkh2itAdA .wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+
 .cid-vf2DYqRKaG {
   padding-top: 0rem;
   padding-bottom: 1rem;
