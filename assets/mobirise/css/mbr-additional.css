@@ -1392,6 +1392,65 @@ section.lazy-placeholder:after {
   background: none;
   position: relative;
 }
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 32px;
+}
+
+.services-grid .card {
+    border: none;
+    padding: 25px;
+}
+
+.service-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.service-list li {
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.service-list li::before {
+    content: "○";
+    position: absolute;
+    left: 0;
+    color: #b69b74;
+    font-weight: 600;
+}
+
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 32px;
+}
+
+.features-grid .card {
+    border: none;
+    padding: 32px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+
+.features-grid .mbr-iconfont {
+    font-size: 42px;
+    color: #b69b74;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+.features-grid .mbr-card-title {
+    margin-bottom: 12px;
+}
+
 /* .cid-vdVSSX5hrm .mbr-testimonial .card-footer:before {
   content: '';
   position: absolute;
