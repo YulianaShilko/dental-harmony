@@ -1418,7 +1418,7 @@ section.lazy-placeholder:after {
 }
 
 .service-list li::before {
-    content: "○";
+    content: "○  ";
     position: absolute;
     left: 0;
     color: #b69b74;
