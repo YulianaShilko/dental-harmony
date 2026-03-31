@@ -743,7 +743,7 @@ section.lazy-placeholder:after {
   padding: .5rem 0;
   background: #79b9d0;
   transition: none;
-  min-height: 100px;
+  /* min-height: 100px; */
 }
 .cid-rArWEFjSdi .navbar-dropdown.bg-color.transparent.opened {
   background: #79b9d0;
