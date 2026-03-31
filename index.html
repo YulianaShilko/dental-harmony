@@ -1258,7 +1258,7 @@
         </section>
 
 
-        <section class="content2 coinm5 cid-vdW3oeV192" id="content2-24">
+        <!-- <section class="content2 coinm5 cid-vdW3oeV192" id="content2-24">
 
 
 
@@ -1274,10 +1274,78 @@
                     </div>
                 </div>
             </div>
-        </section>
-
-
+        </section> -->
         <section class="form form1 woodm4_form1 cid-tEpvoTAsMC" id="form01-6">
+    <div class="mbr-overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 col-md-12 mx-auto mbr-form" data-form-type="formoid">
+                <form action="https://formspree.io/f/mzdkpndg" method="POST" class="mbr-form form-with-styler"
+                    data-verified="info.dentalharmony2022@gmail.com" data-form-title="Form Name">
+
+                    <div class="form-row">
+                        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Мы свяжемся с
+                            Вами в ближайшее время!</div>
+                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
+                            Oops...! Что-то пошло не так!
+                        </div>
+                    </div>
+
+                    <div class="dragArea form-row row">
+
+                        <div class="col-12">
+                            <h5 class="mbr-fonts-style pb-2 display-1"></h5>
+                        </div>
+
+                        <div class="col-12">
+                            <p class="mbr-fonts-style pb-5 display-5"></p>
+                        </div>
+
+                        <div class="col-lg-6 col-md-12 form-group">
+                            <input type="text" name="nameFirst" placeholder="Имя" data-form-field="nameFirst" required
+                                class="form-control display-7" id="nameFirst-form01-6">
+                        </div>
+
+                        <div class="col-lg-6 col-md-12 form-group">
+                            <input type="tel" name="phone" placeholder="Телефон" data-form-field="phone"
+                                class="form-control display-7" id="phone-form01-6">
+                        </div>
+
+                        <div class="col-12 form-group">
+                            <input type="email" name="email" placeholder="Email" data-form-field="email"
+                                class="form-control display-7" id="email-form01-6">
+                        </div>
+
+                        <div class="col-12 form-group">
+                            <textarea name="message" placeholder="Сообщение" data-form-field="message" required
+                                class="form-control display-7" rows="4" id="message-form01-6"></textarea>
+                        </div>
+
+                        <!-- Чекбокс согласия на обработку данных -->
+                        <div class="col-12 form-group">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="consentCheckbox">
+                                <label class="form-check-label" for="consentCheckbox">
+                                    Я согласен(а) на обработку моих персональных данных в соответствии с <a href="privacy-policy.html" target="_blank">Политикой конфиденциальности</a>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="col-12 text-center pt-4">
+                            <button type="submit" class="btn btn-secondary px-5 display-7" id="submitBtn" disabled>
+                                Отправить
+                            </button>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+        <!-- <section class="form form1 woodm4_form1 cid-tEpvoTAsMC" id="form01-6">
 
 
 
@@ -1337,7 +1405,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section class="social1 cid-vfkh2itAdA" id="social01-2t">
 
@@ -1525,6 +1593,15 @@
             }
         </script>
 
+        <script>
+        // JS для включения кнопки после согласия
+        const consentCheckbox = document.getElementById('consentCheckbox');
+        const submitBtn = document.getElementById('submitBtn');
+
+        consentCheckbox.addEventListener('change', function() {
+            submitBtn.disabled = !this.checked;
+        });
+    </script>
 
 
 </body>
