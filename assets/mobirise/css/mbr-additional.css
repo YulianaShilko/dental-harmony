@@ -1384,7 +1384,7 @@ section.lazy-placeholder:after {
   padding: 0 1rem;
 }
 .cid-vdVSSX5hrm .mbr-testimonial .card-footer {
-  margin-bottom: 2.2rem;
+  /* margin-bottom: 2.2rem; */
   border-top: 0;
   padding: 1rem 1rem 3rem 1rem;
   word-wrap: break-word;
@@ -1530,7 +1530,7 @@ section.lazy-placeholder:after {
   padding: 0 1rem;
 }
 .cid-vdVUjgB0Ce .mbr-testimonial .card-footer {
-  margin-bottom: 2.2rem;
+  /* margin-bottom: 2.2rem; */
   border-top: 0;
   padding: 1rem 1rem 3rem 1rem;
   word-wrap: break-word;
@@ -2714,7 +2714,7 @@ section.lazy-placeholder:after {
 
 .cid-veXXEs4lYe {
   padding-top: 2rem;
-  padding-bottom: 0rem;
+  padding-bottom: 1rem;
   background-color: #ffffff;
 }
 .cid-veXXEs4lYe .mbr-fallback-image.disabled {
