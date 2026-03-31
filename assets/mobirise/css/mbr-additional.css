@@ -1819,15 +1819,15 @@ section.lazy-placeholder:after {
 
 .cid-tEpyZkZRjm .feature-title {
   color: #b69b74;
-  padding-left: 24px;
+  /* padding-left: 24px; */
 }
 
-.cid-tEpyZkZRjm .feature-title::before{
+/* .cid-tEpyZkZRjm .feature-title::before{
     content:"-";
     position:absolute;
     left:0;
     color:#b69b74;
-}
+} */
 
 .cid-tEpyZkZRjm .title-icon {
   color: #b69b74 !important;
