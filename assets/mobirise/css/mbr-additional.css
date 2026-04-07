@@ -3576,3 +3576,124 @@ section.lazy-placeholder:after {
 .cid-vg6vIIjY0v .contact_content {
   color: #343434;
 }
+
+.cid-vg6ETIa0DZ {
+  padding-top: 0rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-vg6ETIa0DZ .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vg6ETIa0DZ .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-vg6ETIa0DZ .mbr-section-head {
+  width: 100%;
+  margin-bottom: 36px;
+}
+.cid-vg6ETIa0DZ .mbr-section-title {
+  color: #b69b74;
+}
+.cid-vg6ETIa0DZ .mbr-section-subtitle {
+  color: #45494E;
+  margin-top: 24px;
+}
+.cid-vg6ETIa0DZ .tabl-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+}
+.cid-vg6ETIa0DZ .tabl-item-row {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+.cid-vg6ETIa0DZ .tabl-item-row:nth-child(2n) {
+  background: rgba(0, 0, 0, 0.02);
+}
+.cid-vg6ETIa0DZ .tabl-item-column {
+  width: 33.33333333%;
+  flex-grow: 1;
+  padding: 14px;
+}
+@media (max-width: 767px) {
+  .cid-vg6ETIa0DZ .tabl-item-column {
+    padding: 10px;
+  }
+}
+.cid-vg6ETIa0DZ .card-title {
+  color: #45494E;
+}
+.cid-vg6ETIa0DZ .card-text {
+  color: #45494E;
+}
+
+.cid-vg6ETI3XiM {
+  padding-top: 0px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-vg6ETI3XiM H1 {
+  color: #222222;
+}
+
+.cid-vg6ETHQYsn {
+  padding-top: 6rem;
+  padding-bottom: 45px;
+  background-color: #ffffff;
+}
+.cid-vg6ETHQYsn img {
+  width: 90%;
+}
+@media (max-width: 992px) {
+  .cid-vg6ETHQYsn img {
+    width: 100%;
+  }
+  .cid-vg6ETHQYsn .pb-5 {
+    padding-bottom: 1rem !important;
+  }
+}
+.cid-vg6ETHQYsn ul {
+  padding-left: 2rem;
+  margin-bottom: 0;
+}
+.cid-vg6ETHQYsn ul li {
+  margin-bottom: 0.4rem;
+  list-style: none;
+  position: relative;
+}
+.cid-vg6ETHQYsn ul li:before {
+  position: absolute;
+  left: -2.6rem;
+  content: '';
+  display: inline-block;
+  text-align: center;
+  margin: 10px 14px;
+  line-height: 20px;
+  transition: all 0.2s;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #b69b74;
+}
+.cid-vg6ETHQYsn .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-vg6ETHQYsn .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
