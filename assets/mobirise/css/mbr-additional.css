@@ -4308,3 +4308,17 @@ section.lazy-placeholder:after {
 .cid-vg7xz2m3BC H1 {
   color: #222222;
 }
+
+.map-switch{
+  margin-bottom:15px;
+}
+
+.map-switch button{
+  padding:8px 15px;
+  margin-right:10px;
+  border:none;
+  background:#79b9d0;
+  color:white;
+  cursor:pointer;
+  border-radius:5px;
+}

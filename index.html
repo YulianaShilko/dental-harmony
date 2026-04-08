@@ -1358,9 +1358,33 @@
             <div class="container">
                 <div class="row justify-content-center align-items-center">
                     <div class="map-wrapper col-12 col-lg-6">
-                        <div class="google-map"><iframe frameborder="0" style="border:0"
+                        <div class="map-switch">
+                            <button onclick="showMap('yandex')">Яндекс-карта</button>
+                            <button onclick="showMap('google')">Google-карта</button>
+                        </div>
+                        <div class="google-map">
+
+  <!-- Яндекс карта (показывается сразу) -->
+  <iframe id="yandexMap"
+    frameborder="0"
+    style="border:0;width:100%;height:400px"
+    src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=60640851747">
+  </iframe>
+
+  <!-- Google карта (скрыта) -->
+  <iframe id="googleMap"
+    frameborder="0"
+    style="border:0;width:100%;height:400px;display:none"
+    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBQ55g-IgRRgXrd803PTWDTb7kd6aAitNQ&q=Могилёв, ул. Бонч-Бруевича 5"
+    allowfullscreen>
+  </iframe>
+
+                            <!-- <iframe frameborder="0" style="border:0"
                                 src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBQ55g-IgRRgXrd803PTWDTb7kd6aAitNQ&amp;q=Могилёв, ул. Бонч-Бруевича 5"
-                                allowfullscreen=""></iframe></div>
+                                allowfullscreen="">
+                            </iframe> -->
+                            <!-- <iframe frameborder="0" style="border:0" src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=60640851747" allowfullscreen=""></iframe> -->
+                        </div>
                     </div>
                     <div class="col-12 col-lg-6">
                         <div class="header_box">
@@ -1396,7 +1420,7 @@
                                                 style="color: rgb(121, 185, 208); fill: rgb(121, 185, 208);"></span>
                                         </div>
                                         <p class="card_text mb-0 mbr-fonts-style display-4"><a href="mailto:info.dentalharmony2022@gmail.com"
-                                                class="text-primary">info.dentalharmony2022@gmail.com</фhref=></p>
+class="text-primary">info.dentalharmony2022@gmail.com</a></p>
                                     </div>
                                     <div class="contact_content mt-3">
                                         <p class="card_text mb-0 mbr-fonts-style display-4"><a href="https://license.gov.by/onelicense/184092" 
@@ -1505,6 +1529,21 @@
             submitBtn.disabled = !this.checked;
         });
     </script>
+
+    <script>
+function showMap(type) {
+  const google = document.getElementById("googleMap");
+  const yandex = document.getElementById("yandexMap");
+
+  if (type === "google") {
+    google.style.display = "block";
+    yandex.style.display = "none";
+  } else {
+    google.style.display = "none";
+    yandex.style.display = "block";
+  }
+}
+</script>
 
 
 </body>
