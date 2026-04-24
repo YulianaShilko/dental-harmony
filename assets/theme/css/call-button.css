@@ -1,0 +1,54 @@
+.call-now-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1100;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 18px;
+    border-radius: 999px;
+    border: 0;
+    background: rgb(115 127 129 / 35%);;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    box-shadow: 0 12px 28px rgba(39, 106, 130, 0.32);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+}
+
+.call-now-button:hover,
+.call-now-button:focus {
+    color: #ffffff;
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 16px 32px rgba(39, 106, 130, 0.4);
+}
+
+.call-now-button:active {
+    transform: translateY(0);
+    box-shadow: 0 8px 20px rgba(39, 106, 130, 0.3);
+}
+
+.call-now-button__icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: white;
+    font-size: 16px;
+    line-height: 1;
+}
+
+@media (max-width: 575px) {
+    .call-now-button {
+        right: 12px;
+        bottom: 12px;
+        padding: 11px 14px;
+        font-size: 14px;
+    }
+}
