@@ -1,0 +1,81 @@
+/* Кнопка «Наверх»: левый нижний угол, поверх контента, ниже баннера cookies */
+.dh-scroll-to-top {
+    position: fixed;
+    z-index: 10040;
+    left: max(16px, env(safe-area-inset-left, 0px));
+    bottom: calc(max(20px, env(safe-area-inset-bottom, 0px)) + var(--dh-cookie-offset, 0px));
+    width: 46px;
+    height: 46px;
+    padding: 0;
+    margin: 0;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: rgba(121, 185, 208, 0.96);
+    color: white;
+    box-shadow: 0 4px 18px rgba(39, 106, 130, 0.28);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(14px) scale(0.94);
+    transition:
+        opacity 0.28s ease,
+        transform 0.28s ease,
+        visibility 0.28s ease,
+        background 0.2s ease,
+        box-shadow 0.2s ease,
+        color 0.2s ease;
+    pointer-events: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.dh-scroll-to-top:focus {
+    outline: 2px solid rgba(39, 106, 130, 0.55);
+    outline-offset: 2px;
+}
+
+.dh-scroll-to-top:focus:not(:focus-visible) {
+    outline: none;
+}
+
+.dh-scroll-to-top--visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+}
+
+@media (hover: hover) {
+    .dh-scroll-to-top--visible:hover {
+        background: rgba(100, 168, 192, 1);
+        color: #0f0f0f;
+        box-shadow: 0 8px 24px rgba(39, 106, 130, 0.38);
+        transform: translateY(-2px) scale(1.04);
+    }
+}
+
+.dh-scroll-to-top:active {
+    transform: translateY(0) scale(0.98);
+}
+
+.dh-scroll-to-top svg {
+    display: block;
+    width: 22px;
+    height: 22px;
+}
+
+@media (max-width: 575px) {
+    .dh-scroll-to-top {
+        width: 44px;
+        height: 44px;
+        left: max(12px, env(safe-area-inset-left, 0px));
+        bottom: calc(max(16px, env(safe-area-inset-bottom, 0px)) + var(--dh-cookie-offset, 0px));
+    }
+
+    .dh-scroll-to-top svg {
+        width: 20px;
+        height: 20px;
+    }
+}
