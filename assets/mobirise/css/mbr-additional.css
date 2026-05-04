@@ -1416,7 +1416,7 @@ section.lazy-placeholder:after {
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
 
     .img-service-icon {
-      width: 100px; border-radius: 50%;
+      width: 200px; border-radius: 50%;
     }
 }
 
