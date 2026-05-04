@@ -1483,6 +1483,171 @@ section.lazy-placeholder:after {
 .cid-vdVSSX5hrm .mbr-author-desc {
   color: #b69b74;
 }
+
+/* #team01-1z «Специалисты»: три карточки в ряд на узких экранах (переопределение col-12 / col-md-6) */
+@media (max-width: 768px) {
+  /* Вторая обёртка .container — ряд с карточками (без :has для совместимости) */
+  #team01-1z .container + .container .row {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-between;
+    column-gap: 6px;
+    row-gap: 0;
+  }
+
+  #team01-1z .mbr-testimonial {
+    flex: 1 1 0 !important;
+    max-width: none !important;
+    width: auto !important;
+    min-width: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0.5rem !important;
+  }
+
+  #team01-1z .mbr-testimonial .panel-item,
+  #team01-1z .mbr-testimonial .card-block {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  #team01-1z .mbr-testimonial .card-block .testimonial-photo {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0.35rem !important;
+  }
+
+  #team01-1z .mbr-testimonial .card-block .testimonial-photo img {
+    width: 100% !important;
+    min-width: 0 !important;
+    height: clamp(52px, 133vw, 332px) !important;
+    min-height: 0 !important;
+    object-fit: cover;
+    display: block;
+  }
+
+  #team01-1z .mbr-testimonial .card-footer {
+    padding: 0.25rem 0.15rem 0.4rem !important;
+    word-wrap: normal;
+    overflow-wrap: anywhere;
+  }
+
+  #team01-1z .mbr-author-name {
+    font-size: 13px !important;
+    line-height: 1.2 !important;
+    padding-bottom: 0.25rem !important;
+    margin: 0;
+    font-weight: 700;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /* -webkit-line-clamp: 2; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    hyphens: auto;
+  }
+
+  #team01-1z .mbr-author-desc {
+    font-size: 11px !important;
+    line-height: 1.25 !important;
+    padding-bottom: 0 !important;
+    margin: 0;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /* -webkit-line-clamp: 3; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  #team01-1z .mbr-testimonial.md-pb {
+    padding-bottom: 0.5rem !important;
+  }
+}
+
+/* #team01-1y «Специалисты»: три карточки в ряд на узких экранах (переопределение col-12 / col-md-6) */
+@media (max-width: 768px) {
+  /* Вторая обёртка .container — ряд с карточками (без :has для совместимости) */
+  #team01-1y .container + .container .row {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-between;
+    column-gap: 6px;
+    row-gap: 0;
+  }
+
+  #team01-1y .mbr-testimonial {
+    flex: 1 1 0 !important;
+    max-width: none !important;
+    width: auto !important;
+    min-width: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 0.5rem !important;
+  }
+
+  #team01-1y .mbr-testimonial .panel-item,
+  #team01-1y .mbr-testimonial .card-block {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  #team01-1y .mbr-testimonial .card-block .testimonial-photo {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0.35rem !important;
+  }
+
+  #team01-1y .mbr-testimonial .card-block .testimonial-photo img {
+    width: 100% !important;
+    min-width: 0 !important;
+    height: clamp(52px, 133vw, 332px) !important;
+    min-height: 0 !important;
+    object-fit: cover;
+    display: block;
+  }
+
+  #team01-1y .mbr-testimonial .card-footer {
+    padding: 0.25rem 0.15rem 0.4rem !important;
+    word-wrap: normal;
+    overflow-wrap: anywhere;
+  }
+
+  #team01-1y .mbr-author-name {
+    font-size: 13px !important;
+    line-height: 1.2 !important;
+    padding-bottom: 0.25rem !important;
+    margin: 0;
+    font-weight: 700;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /* -webkit-line-clamp: 2; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    hyphens: auto;
+  }
+
+  #team01-1y .mbr-author-desc {
+    font-size: 11px !important;
+    line-height: 1.25 !important;
+    padding-bottom: 0 !important;
+    margin: 0;
+    font-weight: 600;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    /* -webkit-line-clamp: 3; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  #team01-1y .mbr-testimonial.md-pb {
+    padding-bottom: 0.5rem !important;
+  }
+}
+
 .cid-vdVSSX5hrm H2 {
   color: #222222;
 }
