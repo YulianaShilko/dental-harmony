@@ -1414,6 +1414,10 @@ section.lazy-placeholder:after {
     background: rgb(255 255 255 / 29%);
     border-radius: 12px;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+
+    .img-service-icon {
+      width: 100px; border-radius: 50%;
+    }
 }
 
 .service-list {
