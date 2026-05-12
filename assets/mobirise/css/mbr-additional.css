@@ -8,7 +8,7 @@
 body {
   /* font-family: Muli; */
 }
-li > a {
+.service-list > li > a {
   color: #926e49 !important;
   text-decoration: underline !important;
 }
