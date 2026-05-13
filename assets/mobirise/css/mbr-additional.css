@@ -129,9 +129,10 @@ body {
 }
 .btn-secondary,
 .btn-secondary:active {
-  background-color: #79b9d0 !important;
+  background: linear-gradient(135deg, #a8d8ea 0%, #79b9d0 50%, #5a9bb56b 100%) !important;
   border-color: #79b9d0 !important;
   color: #ffffff !important;
+  border: none;
 }
 .btn-secondary:hover,
 .btn-secondary:focus,
@@ -324,6 +325,7 @@ body {
   background: transparent !important;
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2) !important;
   border-color: #79b9d0;
+  border: none;
 }
 .btn-secondary-outline:hover:before,
 .btn-secondary-outline:focus:before,
@@ -338,7 +340,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #79b9d0;
+  background: linear-gradient(135deg, #a8d8ea 0%, #79b9d0 50%, #5a9bb56b 100%) !important;
   transition: all 0.3s;
   transform-origin: center;
   transform: scaleX(0);
@@ -347,8 +349,9 @@ body {
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
   color: #ffffff !important;
-  background-color: #79b9d0 !important;
+  background: linear-gradient(135deg, #a8d8ea 0%, #79b9d0 50%, #5a9bb56b 100%) !important;
   border-color: #79b9d0 !important;
+  border: none;
 }
 .btn-info-outline,
 .btn-info-outline:active {
@@ -714,7 +717,7 @@ blockquote {
 .xdsoft_datetimepicker .xdsoft_calendar td:hover,
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
   color: #000000 !important;
-  background: #79b9d0 !important;
+  background: linear-gradient(135deg, #a8d8ea 0%, #79b9d0 50%, #5a9bb56b 100%) !important;
   box-shadow: none !important;
 }
 .lazy-bg {
@@ -744,12 +747,12 @@ section.lazy-placeholder:after {
 }
 .cid-rArWEFjSdi .navbar {
   padding: .5rem 0;
-  background: #79b9d0;
+  background: linear-gradient(135deg, #a8d8ea 0%, #79b9d0 50%, #5a9bb56b 100%) !important;
   transition: none;
   /* min-height: 100px; */
 }
 .cid-rArWEFjSdi .navbar-dropdown.bg-color.transparent.opened {
-  background: #79b9d0;
+  background: linear-gradient(135deg, #a8d8ea 0%, #79b9d0 50%, #5a9bb56b 100%) !important;
 }
 .cid-rArWEFjSdi a {
   font-style: normal;
@@ -758,7 +761,7 @@ section.lazy-placeholder:after {
   color: inherit!important;
 }
 .cid-rArWEFjSdi .dropdown-item:active {
-  background: #79b9d0;
+  background: linear-gradient(135deg, #a8d8ea 0%, #79b9d0 50%, #5a9bb56b 100%) !important;
 }
 .cid-rArWEFjSdi .nav-item span {
   padding-right: 0.4em;
@@ -846,7 +849,7 @@ section.lazy-placeholder:after {
   padding-bottom: 0;
 }
 .cid-rArWEFjSdi .dropdown .dropdown-menu {
-  background: #79b9d0;
+  background: linear-gradient(135deg, #a8d8ea 0%, #79b9d0 50%, #5a9bb56b 100%) !important;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -1264,7 +1267,7 @@ section.lazy-placeholder:after {
   background-color: white;
 }
 .cid-rArWGumJqV .text-wrap {
-  background-color: #79b9d0;
+  background: linear-gradient(135deg, #a8d8ea 0%, #79b9d0 50%, #5a9bb56b 100%) !important;
   padding: 3rem 6rem;
 }
 .cid-rArWGumJqV .img1 {
@@ -1308,7 +1311,7 @@ section.lazy-placeholder:after {
     width: 50%;
   }
   .cid-rArWGumJqV .text-wrap {
-    background-color: #79b9d0;
+    background: linear-gradient(135deg, #a8d8ea 0%, #79b9d0 50%, #5a9bb56b 100%) !important;
     padding: 2rem 2rem;
   }
 }
@@ -2493,7 +2496,7 @@ section.lazy-placeholder:after {
 .cid-rArWKbZ4Lx {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #79b9d0;
+  background: linear-gradient(135deg, #a8d8ea 0%, #79b9d0 50%, #5a9bb56b 100%);
 }
 .cid-rArWKbZ4Lx .media-container-row .mbr-text {
   color: #f7f4f0;
@@ -2505,12 +2508,12 @@ section.lazy-placeholder:after {
 }
 .cid-ufXcDZgugM .navbar {
   padding: .5rem 0;
-  background: #79b9d0;
+  background: linear-gradient(135deg, #a8d8ea 0%, #79b9d0 50%, #5a9bb56b 100%) !important;
   transition: none;
   min-height: 100px;
 }
 .cid-ufXcDZgugM .navbar-dropdown.bg-color.transparent.opened {
-  background: #79b9d0;
+  background: linear-gradient(135deg, #a8d8ea 0%, #79b9d0 50%, #5a9bb56b 100%) !important;
 }
 .cid-ufXcDZgugM a {
   font-style: normal;
@@ -2519,7 +2522,7 @@ section.lazy-placeholder:after {
   color: inherit!important;
 }
 .cid-ufXcDZgugM .dropdown-item:active {
-  background: #79b9d0;
+  background: linear-gradient(135deg, #a8d8ea 0%, #79b9d0 50%, #5a9bb56b 100%) !important;
 }
 .cid-ufXcDZgugM .nav-item span {
   padding-right: 0.4em;
@@ -2607,7 +2610,7 @@ section.lazy-placeholder:after {
   padding-bottom: 0;
 }
 .cid-ufXcDZgugM .dropdown .dropdown-menu {
-  background: #79b9d0;
+  background: linear-gradient(135deg, #a8d8ea 0%, #79b9d0 50%, #5a9bb56b 100%) !important;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -3013,7 +3016,7 @@ section.lazy-placeholder:after {
   margin: 0 0.5rem;
 }
 .cid-vfkh2itAdA .icon-wrapper:hover {
-  background: #79b9d0;
+  background: linear-gradient(135deg, #a8d8ea 0%, #79b9d0 50%, #5a9bb56b 100%) !important;
 }
 .cid-vfkh2itAdA .wrapper {
   display: flex;
@@ -3285,7 +3288,7 @@ section.lazy-placeholder:after {
 .cid-ufXcDZZc87 {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #79b9d0;
+  background: linear-gradient(135deg, #a8d8ea 0%, #79b9d0 50%, #5a9bb56b 100%);
 }
 .cid-ufXcDZZc87 .media-container-row .mbr-text {
   color: #f7f4f0;
@@ -3297,12 +3300,12 @@ section.lazy-placeholder:after {
 }
 .cid-ufXYLboaH7 .navbar {
   padding: .5rem 0;
-  background: #79b9d0;
+  background: linear-gradient(135deg, #a8d8ea 0%, #79b9d0 50%, #5a9bb56b 100%) !important;
   transition: none;
   min-height: 100px;
 }
 .cid-ufXYLboaH7 .navbar-dropdown.bg-color.transparent.opened {
-  background: #79b9d0;
+  background: linear-gradient(135deg, #a8d8ea 0%, #79b9d0 50%, #5a9bb56b 100%) !important;
 }
 .cid-ufXYLboaH7 a {
   font-style: normal;
@@ -3311,7 +3314,7 @@ section.lazy-placeholder:after {
   color: inherit!important;
 }
 .cid-ufXYLboaH7 .dropdown-item:active {
-  background: #79b9d0;
+  background: linear-gradient(135deg, #a8d8ea 0%, #79b9d0 50%, #5a9bb56b 100%) !important;
 }
 .cid-ufXYLboaH7 .nav-item span {
   padding-right: 0.4em;
@@ -3399,7 +3402,7 @@ section.lazy-placeholder:after {
   padding-bottom: 0;
 }
 .cid-ufXYLboaH7 .dropdown .dropdown-menu {
-  background: #79b9d0;
+  background: linear-gradient(135deg, #a8d8ea 0%, #79b9d0 50%, #5a9bb56b 100%) !important;
   display: none;
   position: absolute;
   min-width: 5rem;
@@ -3709,7 +3712,7 @@ section.lazy-placeholder:after {
 .cid-ufXYLlN51R {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #79b9d0;
+  background: linear-gradient(135deg, #a8d8ea 0%, #79b9d0 50%, #5a9bb56b 100%);
 }
 .cid-ufXYLlN51R .media-container-row .mbr-text {
   color: #f7f4f0;
